@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Resume Generator</h1>
+    <form id="resume-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required /><br /><br />
+
+        <label for="contact-number">Phone Number:</label>
+        <input type="text" id="contact-number" required /><br /><br />
+
+        <label for="contact-address">Contact Address:</label>
+        <input type="text" id="contact-address" required /><br /><br />
+
+        <label for="mail-id">Mail ID:</label>
+        <input type="text" id="mail-id" required /><br /><br />
+
+        <label for="academics">Academics:</label>
+        <textarea id="academics" rows="4" required></textarea><br /><br />
+
+        <label for="experience">Experience:</label>
+        <textarea id="experience" rows="4" required></textarea><br /><br />
+
+        <button type="submit" id="generate-button">Generate Resume</button>
+    </form>
+    <div id="resume-link" style="display: none">
+        <a href="#" id="download-link" download="resume.pdf">Download Resume</a>
+    </div>
+
+    <script src="resume-generator.js"></script>
+</body>
+</html>

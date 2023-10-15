@@ -1,0 +1,13 @@
+# Node.js dependencies
+node_modules/
+
+# Generated files
+resume.pdf
+
+# Environment variables
+.env
+
+# Editor and OS-specific files
+.vscode/
+.DS_Store
+Thumbs.db
