@@ -57,15 +57,6 @@ This project is built using JavaScript, Node.js, and Express for the server, HTM
 - Axios
 - LaTeX (for converting LaTeX to PDF)
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Thanks to OpenAI for their text generation capabilities, which make this project possible.
-- Inspired by the need for a simple and efficient way to generate resumes.
-
 ### PS
 
 Feel free to customize prompt as per your needs.
